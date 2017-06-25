@@ -5,3 +5,15 @@ Cardboard, Oculus, and Gear VR. After demo time, will cover game theory, and rev
 
 
 ### Game Theory
+  - Attach slides here
+  
+### Unity Editor
+  - Refer to https://github.com/junior-devleague/unity-3D-racing/blob/master/Day1/Lesson1.md for editor review.
+  
+### Unity Terms
+  - **Rigid Body** Allows game objects to access the use of the built in physics engine. Any object that must be influenced by gravity, act under added forces via scripting, or interact with other objects MUST contain a Rigidbody.
+  - **Vector3** - This structure is used to pass 3D positions and directions around.
+  - **BoxCollider** - A box shaped collider that allows other objects to interact. 
+  - **Prefab** - an instance of an object that can be used multiple times.
+ 
+ **Add terms as needed. Refer to https://docs.unity3d.com/Manual/index.html for unknown terms** 
