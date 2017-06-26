@@ -41,7 +41,7 @@ public class GameController : MonoBehaviour {
 		}
 	}
   ```
-  - **End Live-Code**
+  **End Live-Code**
   
   - With **GameController** selected, click and drag the SpaceShip object into the Ship field. Do the same with for Asteroid Prefab field by dragging Asteroid. Game Controller object should now look like picture below. The Asteroids will now be spawned as children of the GameController object. Notice that Asteroids are spawned in all directions around the Ship object.
   
