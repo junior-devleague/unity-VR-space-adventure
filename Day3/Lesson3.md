@@ -55,6 +55,7 @@ public class GameController : MonoBehaviour {
   - Change **Anchor** to **Middle Center**, **Alignment** to **Center**, **Tex and **Font Size** to **120**.
   
   **4. Game Timer Logic**
+  
    - **Live-Code**
    
    - Declare the following variables
@@ -88,6 +89,8 @@ public class GameController : MonoBehaviour {
 	}
   ```
   - Add ```using UnityEngine.SceneManagement;``` to the top of the script. This will load the game when the game timer runs out.
+  
+  **End Live-Code**
   
   - Select **GameController** object and drag the **InfoText** object into the field.
   
