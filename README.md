@@ -3,14 +3,14 @@
 This is a comphrensive walk through tutorial to build a 3D racing game with Unity. This project is intended for beginner/intermediate students that have not had any experience with Unity or C#. The goal of this game is to introduce students to the world of VR development through Unity. Through this tutorial, students will understand the total build cycle of a game, best coding practices, and cross platform builds for IOS and Android devices.
 
 
-## Requirements
+### Requirements
  - Unity 5.6.2f1 https://unity3d.com/get-unity/download
  - Xcode Version 8.3.3 https://developer.apple.com/xcode/
  - Android Studio https://developer.android.com/studio/index.html
  - Java Jdk version 8U131 http://www.oracle.com/technetwork/java/javase/downloads/index.html
  - Google VR SDK for Unity version 1.60.0 https://developers.google.com/vr/unity/download
  
- ## Install Notes
+ ### Install Notes
   #### Unity 
    - Make sure to install IOS and Android platform.
   ##### Linking Android SDK & Java JDK with Unity
@@ -23,6 +23,6 @@ This is a comphrensive walk through tutorial to build a 3D racing game with Unit
  - You will need to walk through set up after downloading to install actual android SDK and associated tools.
         
 
-## Crossplatform Build Notes
+### Crossplatform Build Notes
  - Ensure that you are running the latest version of IOS on your device.
  - Ensure your Android device is at least running minimum of **4.4 kitkat**
