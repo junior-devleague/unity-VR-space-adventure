@@ -126,7 +126,17 @@ public class GameController : MonoBehaviour {
   
   - Save game and Play. Bullet should now fire from the front of the ship.
   
-  
 
-   
+### Stretch Goals
+ - Change ship size, colors
+ - Change bullet origin to fire from left or right of ship.
+ - Change lighting in the game
+ - Import Assets from the asset store.
+ 
+ ### Change Game Difficulty
+ - Change Amount of Asteroids that are spawned.
+ - Change Spawn distance.
+ - Shorten game timer.
+ - Change Asteroid health.
+ - Change Asteroid speed.
    
