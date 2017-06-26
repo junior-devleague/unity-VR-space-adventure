@@ -115,7 +115,8 @@ public class GameController : MonoBehaviour {
   - **End LIVE-CODE**
   
   - Select Ship, and create **New Empty Object** and name it **BulletOrigin**. Drag it under appropriate location in Inspector window.
-  ![](http://i.imgur.com/Rel2fnD.png)
+  
+![](http://i.imgur.com/Rel2fnD.png)
   
   - Change the Position of **BulletOrigin** to **-0.08, -1.89, 13.21** respectivly. This will now be the location from where the bullet fires from. **Note** you can make the bullet fire from any location if you change the location of **BulletOrigin**
   
