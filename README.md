@@ -1,6 +1,6 @@
 # unity-space++
 
-This is a comprehensive walk through tutorial to build a 3D racing game with Unity. This project is intended for beginner/intermediate students that have not had any experience with Unity or C#. The goal of this game is to introduce students to the world of VR development through Unity. Through this tutorial, students will understand the total build cycle of a game, best coding practices, and cross platform builds for IOS and Android devices.
+This is a comprehensive walk through tutorial to build a VR game in Unity and publish to IOS and Android devices. This project is intended for beginner/intermediate students that have not had any experience with Unity or C#. The goal of this game is to introduce students to the world of VR development through Unity. Through this tutorial, students will understand the total build cycle of a game, best coding practices, and cross platform builds for IOS and Android devices.
 
 
 ### Requirements
@@ -11,6 +11,7 @@ This is a comprehensive walk through tutorial to build a 3D racing game with Uni
  - Google VR SDK for Unity version 1.60.0 https://developers.google.com/vr/unity/download
  
  ### Install Notes
+ - **Note** file paths are based on OSX, windows users will need find equivalent paths.
   #### Unity 
    - Make sure to install IOS and Android platform.
   ##### Linking Android SDK & Java JDK with Unity
