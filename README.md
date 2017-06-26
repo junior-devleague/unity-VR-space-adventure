@@ -25,4 +25,4 @@ This is a comprehensive walk through tutorial to build a 3D racing game with Uni
 
 ### Crossplatform Build Notes
  - Ensure that you are running the latest version of IOS on your device.
- - Ensure your Android device is at least running minimum of **4.4 kitkat**
+ - Android device is at least running minimum of **4.4 kitkat**
