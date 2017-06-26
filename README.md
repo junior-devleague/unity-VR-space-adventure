@@ -14,7 +14,7 @@ This is a comprehensive walk through tutorial to build a 3D racing game with Uni
   #### Unity 
    - Make sure to install IOS and Android platform.
   ##### Linking Android SDK & Java JDK with Unity
-   - Navigate to unity **preferences => External tools => Android**. Click on browse to add file path to SDK & JDK. SDK will be located under User/library folder. If folder isn't visable, you need to right click in finder **show view options** and enable show library. JDK will be located in **Root/Library/Java/JavaVirtualMachines/**. By default Unity doesn't have root access so you will have to ensure the correct path.
+   - Navigate to unity **preferences => External tools => Android**. Click on browse to add file path to SDK & JDK. SDK will be located under User/library folder. If folder isn't visable, you need to right click in finder **show view options** and enable show library. JDK will be located in **Root/Library/Java/JavaVirtualMachines/**. By default Unity doesn't have root access so you will have to ensure the  path is correct.
  
  #### Xcode
   - Navigate to **preferences => accounts** click + by apple Id. Enter apple id and password. Xcode will automatically assign you a personal development team. You will use this team to sign your game before publishing to device.
