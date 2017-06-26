@@ -1,6 +1,6 @@
 # Lesson Day 2
 
-Today will be setting up the unity environment for VR, explore VR simulator, and start building the game.
+Today will be setting up the unity environment for VR, explore VR simulator, and start building some objects needed for the game.
 
 ### Setting up our environment
 - Create a new unity game ensuring 3D is selected.
