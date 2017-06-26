@@ -28,7 +28,8 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
 
 - All scripts can be found in Wiki page.
 
-  #### Steps
+  #### Steps 
+  
   **1. Building the target**
   
    - Rename your cube to **Asteroid** in the Inspector window. Create a new **Tag** name called **Target** and assign to the asteroid.
@@ -43,7 +44,7 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
   
   **3. Aiming Logic** 
   
-  - **STOP HERE - Live Code Ship**. Script in Wiki page. This will let us know that we are actually targeting our asteroid.
+  - **Live Code Ship**. Script in Wiki page. This will let us know that we are actually targeting our asteroid.
   ```
   void Update () {
    RaycastHit hit;
@@ -55,6 +56,8 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
     }  
   }
   ```
+  - **End Live-Code**
+  
   - Click Play and aim your pointer at the cube. Click on the **Console** window and should see the message **Hit Asteroid** displayed.
 
   **4. Building the bullet**
