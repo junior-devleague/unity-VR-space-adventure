@@ -11,6 +11,7 @@ This is a comprehensive walk through tutorial to build a VR game in Unity and pu
  - Google VR SDK for Unity version 1.60.0 https://developers.google.com/vr/unity/download
  
  ### Install Notes
+ - **Note** file paths are based on OSX, windows users will need find equivalent paths.
   #### Unity 
    - Make sure to install IOS and Android platform.
   ##### Linking Android SDK & Java JDK with Unity
