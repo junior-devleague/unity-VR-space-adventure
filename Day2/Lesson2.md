@@ -95,7 +95,7 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
     - With Asteroid selected, click **Add Component** and search for **BoxCollider**, click to add to Asteroid. Under **BoxCollider** component, select **isTrigger** and give size of 4, 4, 4 respectivly. This will allow the Bullets to interact with the Asteroid.
     - With Asteroid selected, search for **RigidBody** and add to Asteroid. Deselect **use gravity**. This will allow the Asteroid to rotate with physics and float in the game world.
     - Save and run the game. Asteroid should now rotate and destroyed after being hit 3 times by Bullet.
-    - Click and drag Asteroid object into **Game Prefab** folder. Now the Asteroid is a prefab.
+    - Click and drag Asteroid object into **Game Prefab** folder. Delete Asteroid object from Hierarchy window. Now the Asteroid is a prefab.
    
 
 
