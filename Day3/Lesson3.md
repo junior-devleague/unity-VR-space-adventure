@@ -1,6 +1,6 @@
 # Lesson Day 3
 
-Today will be building our Game Controller object that will
+Today will be building our Game Controller object, creating the game UI, and making the game look nice.
 
 ### Steps
 **1. Create GameController**
