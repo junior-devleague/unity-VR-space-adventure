@@ -126,7 +126,7 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
     
     - Create new script named **Asteroid** and attach to Asteroid object.
     
-    **Live-Code Asteroid Script**
+    - **Live-Code Asteroid Script**
     
     - With Asteroid selected, click **Add Component** and search for **BoxCollider**, click to add to Asteroid. Under **BoxCollider** component, select **isTrigger** and give size of 4, 4, 4 respectivly. This will allow the Bullets to interact with the Asteroid.
     
