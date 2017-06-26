@@ -5,7 +5,8 @@ Cardboard, OculusRift, and Gear VR. After demo time, will cover game theory, and
 
 
 ### Game Theory
-  - Attach slides here
+  - Game Theory Slides https://docs.google.com/presentation/d/1Oomc74eVqh1ccG_tV8ZvfaVrl3UNqyLooLvxw7MgaBU/edit
+  - VR Slides https://docs.google.com/presentation/d/1sihf7KeMktDhbIXGSIeN1sbbOnuucxq5cElAC3a80yg/edit#slide=id.p
   
 ### Unity Editor
   - Refer to https://github.com/junior-devleague/unity-3D-racing/blob/master/Day1/Lesson1.md for editor review.
