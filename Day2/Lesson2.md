@@ -20,7 +20,7 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
  
  - In **project** window, select **Google VR** folder and open up **Prefabs** folder. Click and drag **GvrEditorEmulator** to the Hierarchy window. This will allow us to simulate what the game will look/behave in VR without having to build it each time.
  
- - In **Prefabs** still, open up **UI** folder and click and drag **GvrRectilePointer** into the Hierarchy window as a child of **Main Camera**. In **Inspector** window give the pointer the **Position** of **X = 0, Y = -1, z = 6**, and **Scale** of **x = 1, y = 1, z =25**. This will act as our pointer in the game.
+ - In **Prefabs** still, open up **UI** folder and click and drag **GvrRectilePointer** into the Hierarchy window as a child of **Main Camera**. In **Inspector** window give the pointer the **Position** of **X = 0, Y = -1, z = 6**, and **Scale** of **x = 1, y = 1, z =35**. This will act as our pointer in the game.
  
  - Save the game and click **Play**. You should now see the pointer and the cube. To move up/down/left/right hold **option/alt** key and move mouse. 
  
