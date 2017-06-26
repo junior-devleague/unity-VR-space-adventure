@@ -10,7 +10,7 @@ This is a comphrensive walk through tutorial to build a 3D racing game with Unit
  - Java Jdk version 8U131 http://www.oracle.com/technetwork/java/javase/downloads/index.html
  - Google VR SDK for Unity version 1.60.0 https://developers.google.com/vr/unity/download
  
- ### Install Notes
+ ## Install Notes
   #### Unity 
    - Make sure to install IOS and Android platform.
   ##### Linking Android SDK & Java JDK with Unity
@@ -22,4 +22,7 @@ This is a comphrensive walk through tutorial to build a 3D racing game with Unit
 #### Android Studio
  - You will need to walk through set up after downloading to install actual android SDK and associated tools.
         
- 
+
+## Crossplatform Build Notes
+ - Ensure that you are running the latest version of IOS on your device.
+ - Ensure your Android device is at least running minimum of **4.4 kitkat**
