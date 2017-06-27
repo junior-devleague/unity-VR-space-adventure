@@ -126,6 +126,8 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
     - **STOP HERE - Live code DestroyBullet script** - refer to wiki for script
     
     - Add script to Bullet Prefab. This will make the bullet destroy itself after certain amount of time. 
+    
+    - Click on **Bullet** prefab and make sure **bulletLife** has a value of 3. Then click **apply** to bind this to the Bullet prefab.
    
   **7. Building the Asteroid**
   
