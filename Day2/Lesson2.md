@@ -104,7 +104,7 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
 				GameObject bulletObject = Instantiate (bulletPrefab);
                                 
     			// Transforms bulletObject Position.
-				bulletObject.transform.position = bulletOrigin.transform.position;
+				bulletObject.transform.position = bulletObject.transform.position;
 
      			// Reference to our Bullet prefab stored in bullet variable.
 				Bullet bullet = bulletObject.GetComponent<Bullet> ();
