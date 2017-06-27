@@ -121,7 +121,8 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
    
    **6. Add lifespan to Bullet component**
    
-   
+    - Add a new script named **DestroyBullet** and apply it to the Bullet prefab.
+    
     - **STOP HERE - Live code DestroyBullet script** - refer to wiki for script
     
     - Add script to Bullet Prefab. This will make the bullet destroy itself after certain amount of time. 
