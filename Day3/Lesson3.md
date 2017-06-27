@@ -57,7 +57,7 @@ public class GameController : MonoBehaviour {
   
   **4. Game Timer Logic**
   
-   - **Live-Code**
+   - **Live-Code GameController**
    
    - Declare the following variables
    ```
