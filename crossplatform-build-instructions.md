@@ -17,7 +17,6 @@
 4. Click on **Player Settings** in Build Settings window. This will open up preferences in the Inspector window.
 - At top of window, add a **Company Name** and **Product Name** of your choosing. You also have the option to select a **Default Icon** which will serve as app icon on your device.
 
-
 ![](http://i.imgur.com/6bVAMsT.png)
 
 5. Open up **Resolution and Presentation** tab.
@@ -27,6 +26,7 @@
 6. Open up **Other Settings** tab.
 - Under **Rendering** Select **Virtual Reality Supported**. This will allow you to add a VR device. Click + and select **Cardboard**.
 - Scroll down to **Identification** and add a **Bundle Identifier**. This follows the structure of **com.CompanyName.ProductName**. Leave all other fields as is.
+
 ![](http://i.imgur.com/v1hSu8g.png)
 
 7. Plug your device into your computer and click **Build And Run**. Unity will test/package all your files and ship it off to Xcode. 
@@ -37,9 +37,9 @@
 
 2. Make sure that Xcode recognizes your device is plugged in. 
 
-3. Xcode will initially fail the build because you need to select your dev team to sign the certificate. Select your **Team** from the drop down menu. Xcode will try to compile your app again.
+3. Xcode will initially fail the build because you need to select your **Dev Team** to sign the certificate. Select your **Team** from the drop down menu. Xcode will try to compile your app again.
 
-![](http://i.imgur.com/nYbcarP.png)
+![](http://i.imgur.com/KceX4SM.png)
 
 4. Once you see the **Build Successful** notification, Unlock your iphone and navigate to **Settings => General => Profiles & Device Management**. Click on your **Developer App** Id and select **Trust**. This will allow your device to run apps by this developer.
 
