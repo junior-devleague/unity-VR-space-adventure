@@ -113,6 +113,8 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
 		}
 	}
    ```
+   - Click on the **SpaceShip** object in Hierarchy window and assign a value of **0.5** to **shootingCoolDown**. This will create a .5 second delay between firing bullets.
+   
    - Save game and click Play. Ship should now spawn bullets when aimed at Asteroid.
    
    - **END LIVE CODE**
