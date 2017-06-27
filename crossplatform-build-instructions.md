@@ -16,8 +16,7 @@
 
 4. Click on **Player Settings** in Build Settings window. This will open up preferences in the Inspector window.
 - At top of window, add a **Company Name** and **Product Name** of your choosing. You also have to option to select a **Default Icon** which will serve as app icon on your device.
-
-![](http://i.imgur.com/6bVAMsT.png)
+  ![](http://i.imgur.com/6bVAMsT.png)
 
 5. Open up **Resolution and Presentation** tab.
 - Under **Allowed Orientations for Auto Rotation** uncheck all boxes EXCEPT **Landscape Left**.
