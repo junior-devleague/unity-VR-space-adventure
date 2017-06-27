@@ -87,24 +87,31 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
     ```
   void Update () {
 
-      // Decrease shooting timer
-      shootingTimer -= Time.deltaTime;
+		// Decrease shooting timer
+		shootingTimer -= Time.deltaTime;
 
-      // Aiming logic
-      RaycastHit hit;
+		// Movement logic
+		// transform.position += transform.forward * speed * Time.deltaTime;
 
-      if (Physics.Raycast(transform.position, transform.forward, out hit)) {
-        if (hit.transform.tag == "Target" && shootingTimer <= 0f) {
-          shootingTimer = shootingCoolDown;
+		// Aiming logic
+		RaycastHit hit;
 
-          GameObject bulletObject = Instantiate (bulletPrefab);
-          bulletObject.transform.position = transform.position;
+		if (Physics.Raycast(transform.position, transform.forward, out hit)) {
+			if (hit.transform.tag == "Target" && shootingTimer <= 0f) {
+				shootingTimer = shootingCooldown;
 
-          Bullet bullet = bulletObject.GetComponent<Bullet> ();
-          bullet.direction = (hit.transform.position - bulletObject.transform.position).normalized;
-        }
-      }
-   }
+    // bulletObject will now store an instance of the bullet prefab.
+				GameObject bulletObject = Instantiate (bulletPrefab);
+                                
+    // Transforms bulletObject Position.
+				bulletObject.transform.position = bulletOrigin.transform.position;
+
+     // Reference to our Bullet prefab stored in bullet variable.
+				Bullet bullet = bulletObject.GetComponent<Bullet> ();
+				bullet.direction = (hit.transform.position - bulletObject.transform.position).normalized;
+			}
+		}
+	}
    ```
    - Save game and click Play. Ship should now spawn bullets when aimed at Asteroid.
    
