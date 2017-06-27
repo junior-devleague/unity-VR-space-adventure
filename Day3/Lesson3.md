@@ -53,7 +53,7 @@ public class GameController : MonoBehaviour {
   
   - Select text object and change Position to 0, 40, 100 respectivly.
   
-  - Change **Anchor** to **Middle Center**, **Alignment** to **Center**, **Tex and **Font Size** to **120**.
+  - Change **Anchor** to **Middle Center**, **Alignment** to **Center**, and **Font Size** to **120**.
   
   **4. Game Timer Logic**
   
