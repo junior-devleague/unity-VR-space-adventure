@@ -32,4 +32,19 @@
 
 #### Steps Xcode
 
+1. Make sure that you filled in your appleId and Password in **Preferences => Accounts**. You need this for signing your app certificate and generating your personal dev team.
+
+2. Make sure that Xcode recognizes your device is plugged in. 
+
+3. Xcode will initially fail the build because you need to select your dev team to sign the certificate. Select your **Team** from the drop down menu. Xcode will try to compile your app again.
+
+![](http://i.imgur.com/nYbcarP.png)
+
+4. Once you see the **Build Successful** notification, Unlock your iphone and navigate to **Settings => General => Profiles & Device Management**. Click on your **Developer App** Id and select **Trust**. This will allow your device to run apps by this developer.
+
+5. Xcode will now launch your app on the phone. You can now unplug your device and test the app. You also can keep it plugged in to run live tests on the app.
+
+#### Known Errors 
+- **Match-O Linker Error** can be resolved by exporting your game in Unity, creating new project and import your game package. Follow the Unity steps again and Build and Run. This should push to Xcode and build successfully. Dont mind the yellow warnings, as this shouldn't result in an unsuccessful build.
+
 
