@@ -29,7 +29,8 @@ public class GameController : MonoBehaviour {
 			GameObject asteroidObject = Instantiate (asteroidPrefab);
 
 			asteroidObject.transform.SetParent (transform);
-
+                        
+			// spawn asteroids random between 0 - 360 degress
 			float randomAngle = Random.Range (0, 2 * Mathf.PI);
 			float randomHeightAngle = Random.Range (0, 2 * Mathf.PI);
 
