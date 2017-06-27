@@ -100,13 +100,13 @@ Today will be setting up the unity environment for VR, explore VR simulator, and
 			if (hit.transform.tag == "Target" && shootingTimer <= 0f) {
 				shootingTimer = shootingCooldown;
 
-    				// bulletObject will now store an instance of the bullet prefab.
+    			// bulletObject will now store an instance of the bullet prefab.
 				GameObject bulletObject = Instantiate (bulletPrefab);
                                 
-    				// Transforms bulletObject Position.
+    			// Transforms bulletObject Position.
 				bulletObject.transform.position = bulletOrigin.transform.position;
 
-     				// Reference to our Bullet prefab stored in bullet variable.
+     			// Reference to our Bullet prefab stored in bullet variable.
 				Bullet bullet = bulletObject.GetComponent<Bullet> ();
 				bullet.direction = (hit.transform.position - bulletObject.transform.position).normalized;
 			}
