@@ -1,8 +1,6 @@
-# Crossplatform Build Instructions
+# IOS Build Instructions
 
-### IOS
-
-##### Requirements
+## Requirements
 - Make sure you are running the lastest version of IOS on your device for compatability reasons.
 - IOS minimum device model of Iphone 5
 
