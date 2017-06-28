@@ -2,6 +2,7 @@
 
 This is a comprehensive walk through tutorial to build a VR game in Unity and publish to IOS and Android devices. This project is intended for beginner/intermediate students that have not had any experience with Unity or C#. The goal of this game is to introduce students to the world of VR development through Unity. Through this tutorial, students will understand the total build cycle of a game, best coding practices, and cross platform builds for IOS and Android devices.
 
+- **NOTE** all scripts can be found in Wiki.
 
 ### Requirements
  - Unity 5.6.2f1 https://unity3d.com/get-unity/download
