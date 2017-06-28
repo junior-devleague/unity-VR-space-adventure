@@ -111,7 +111,7 @@ public class GameController : MonoBehaviour {
   
   - Drag the **Space View** into the **Scene** window. This will apply our space theme.
   
-  - Drag the ** Star Ship** prefab onto the **Ship** object so that it is a child element of the Ship. You should now see your Space Vehicle in your Scene window. Position the Star Ship with the values of **0, -2.8, 7.8** respectivly.
+  - Drag the **Star Ship** prefab onto the **SpaceShip** object so that it is a child element of the Ship. You should now see your Space Vehicle in your Scene window. **Position** the Star Ship with the values of **0, -2.8, 7.8** respectivly. **Scale** this ship with values of **65, 77,4, 78.5**. This will allow ship to fit in window on build.
   
   - Save game and Play. Star Ship should now be positioned correctly.
   
