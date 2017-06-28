@@ -82,7 +82,7 @@ public class GameController : MonoBehaviour {
 
 			infoText.text = "Game time: " + Mathf.Floor (gameTimer);
 		} else {
-			infoText.text = "You win!\nYour time:" + Mathf.Floor (gameTimer);
+			infoText.text = "You win!\nYour time: " + Mathf.Floor (gameTimer);
 
 			gameOverTimer -= Time.deltaTime;
 			if (gameOverTimer <= 0f) {
