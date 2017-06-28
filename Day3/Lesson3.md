@@ -65,6 +65,8 @@ public class GameController : MonoBehaviour {
    private float gameTimer;
    private float gameOverTimer = 3f;
    ```
+   - Save script and click **GameController** and drag **InfoText** object into GameController.
+   
    - Add timer logic to Update method. This will keep track of the state of the game.
    ```// Update is called once per frame
 	void Update () {
