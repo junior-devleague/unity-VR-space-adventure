@@ -59,6 +59,8 @@ public class GameController : MonoBehaviour {
   
    - **Live-Code GameController**
    
+   - Add ```using UnityEngine.SceneManagement;``` to top of the script;
+   
    - Declare the following variables
    ```
    public TextMesh infoText; // Reference to text object.
