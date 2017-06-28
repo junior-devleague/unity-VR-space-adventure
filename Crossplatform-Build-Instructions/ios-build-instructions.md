@@ -31,13 +31,13 @@
 
 #### Steps Xcode
 
-1. Make sure that you filled in your appleId and Password in **Preferences => Accounts**. You need this for signing your app certificate and generating your personal dev team.
+1. Make sure that you filled in your apple Id and Password in **Preferences => Accounts**. You need this for signing your app certificate and generating your personal dev team.
 
 2. Make sure that Xcode recognizes your device is plugged in. 
 
 3. Xcode will initially fail the build because you need to select your **Dev Team** to sign the certificate. Select your **Team** from the drop down menu. Xcode will try to compile your app again.
 
-![](http://i.imgur.com/KceX4SM.png)
+![](http://i.imgur.com/dyhVrVb.png)
 
 4. Once you see the **Build Successful** notification, Unlock your iphone and navigate to **Settings => General => Profiles & Device Management**. Click on your **Developer App** Id and select **Trust**. This will allow your device to run apps by this developer.
 
