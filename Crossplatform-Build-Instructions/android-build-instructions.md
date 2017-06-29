@@ -5,9 +5,11 @@
 
 #### Device Steps
 
-1. In device navigate to **Settings => Developer Options** and turn **Developer Options** on. Scroll down to **Debugging** and turn on **USB Debugging**. Click **Ok** when prompted on screen.
+1. In device navigate to **Settings => About** and tap **Build #** 7 times until notified that developer mode has been turned on.
 
-2. Plug phone in and follow steps below for Unity.
+2. In device navigate to **Settings => Developer Options** and turn **Developer Options** on. Scroll down to **Debugging** and turn on **USB Debugging**. Click **Ok** when prompted on screen.
+
+3. Plug phone in and follow steps below for Unity.
 
 #### Steps Unity
 
