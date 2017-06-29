@@ -1,7 +1,7 @@
 # IOS Build Instructions
 
 ## Requirements
-- Make sure you are running the lastest version of IOS on your device for compatability reasons.
+- Make sure you are running the lastest version of IOS on your device and Xcode 8.3.3 minimun for compatability reasons.
 - IOS minimum device model of Iphone 5
 
 #### Steps Unity
