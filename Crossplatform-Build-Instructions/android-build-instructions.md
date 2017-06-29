@@ -36,4 +36,4 @@
 
 
 #### Known Errors 
-- **Win32 Exception Error** can be resolved by ensuring that Unity has the correct path to your Java JDK. If this path is incorrect, will fail to build application. Remeber, on OSX this file will be found at **Root/Library/Java/JavaVirtualMachines/JavaJDK**.
+- **Win32 Exception Error** can be resolved by ensuring that Unity has the correct path to your Java JDK. If this path is incorrect, will fail to build application. Remeber, on OSX this file will be found at **Root/Library/Java/JavaVirtualMachines/jdk1.8.0_133/Contents/Home**.
